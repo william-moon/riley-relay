@@ -1,0 +1,9 @@
+{
+  "name": "riley-relay",
+  "version": "1.0.0",
+  "description": "Public front-desk relay for Riley (Twilio <-> box over 443). Free, self-hosted on Render.",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": { "ws": "^8.18.0" }
+}
